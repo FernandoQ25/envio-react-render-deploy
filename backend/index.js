@@ -35,7 +35,7 @@ app.get("/ping", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Backend activo y corriendo 🎉");
+  res.send("Backend activo y corriendo 2🎉");
 });
 
 app.listen(PORT, () => {
