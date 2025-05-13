@@ -6,7 +6,7 @@ import {DB_HOST, DB_DATABASE, DB_PASSWORD, DB_PORT, DB_USER, FRONTEND_URL, PORT}
 const app = express();
 const pool = new pg.Pool({
     host: DB_HOST,
-    datatabase: DB_DATABASE,
+    database: DB_DATABASE,
     user: DB_USER,
     password: DB_PASSWORD,
     port: DB_PORT
