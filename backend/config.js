@@ -7,3 +7,6 @@ export const DB_USER = process.env.DB_USER || 'postgres'
 export const DB_PASSWORD = process.env.DB_PASSWORD || 'myseecretpassword'
 
 export const PORT = process.env.PORT || 3001
+
+// Nueva configuración para archivos
+export const FILE_PATH = process.env.FILE_PATH || './files/archivos.xlsx'
